@@ -707,6 +707,9 @@ int lgw_start(void) {
 
     uint64_t fsk_sync_word_reg;
 
+     DEBUG_MSG("Note: DRACAENA TESSSSSSSSSSSSSSSSSSS\n");
+     printf("DRACAENA TEST==============================\n");
+
     if (lgw_is_started == true) {
         DEBUG_MSG("Note: LoRa concentrator already started, restarting it now\n");
     }
